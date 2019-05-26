@@ -1,0 +1,74 @@
+h1 {
+  font-size:4vw;
+  font-family: 'Press Start 2P';
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+h2 {
+  font-size:2vw;
+  font-family: 'Press Start 2P';
+  color:blue;
+  text-decoration: underline;
+}
+
+p{
+  color: black;
+  font-family: 'Roboto Mono';
+  font-size: 1.2vw;
+}
+
+a.home {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+a.home:visited{
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+a.home:active{
+  color:black;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+a.home:hover{
+  color:white;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+a.menu {
+  color: blue;
+}
+a.menu:visited{
+  color: blue;
+}
+a.menu:active{
+  color:black;
+}
+a.menu:hover{
+  color:white;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#sidebar{
+  text-align: right;
+  padding-right:5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#pic{
+  margin-top: 2%;
+  max-height: 50vw;
+}
+#gallery{
+width: 200px;
+}
