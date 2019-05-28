@@ -15,6 +15,7 @@ p{
   color: black;
   font-family: 'Roboto Mono';
   font-size: 1.2vw;
+  text-align: center;
 }
 
 a.home {
@@ -64,6 +65,7 @@ a.menu:hover{
   margin-bottom: 5%;
 }
 #gallery{
+margin-top: 1.5vw;
 width: 500px;
 }
 .carousel-item{

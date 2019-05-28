@@ -49,6 +49,18 @@ a.menu:active{
 a.menu:hover{
   color:white;
 }
+a.para {
+  color: red;
+}
+a.para:visited{
+  color: red;
+}
+a.para:active{
+  color:black;
+}
+a.para:hover{
+  color:white;
+}
 
 .col-sm-6{
 

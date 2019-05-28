@@ -15,8 +15,15 @@ p{
   color: black;
   font-family: 'Roboto Mono';
   font-size: 1.2vw;
+  width: 40vw;
+  text-align: center;
 }
 
+iframe{
+  width: 40vw;
+  height: 25vw;
+  align-content: center;
+}
 
 a.home {
   color: black;
@@ -51,11 +58,13 @@ a.menu:hover{
   color:white;
 }
 
-#gallery{
-  width: 500px;
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
 }
-#text{
-  max-width: 500px;
+
+.zoom:hover {
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 #sidebar{
@@ -64,11 +73,11 @@ a.menu:hover{
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.carousel-item{
-max-height: 47vw;
-max-width: 35vw;
+#vid{
+  padding-top: 10vw;
+
 }
-img{
-max-height: inherit;
-width: auto;
+#gallery{
+width: 40vw;
+border: solid;
 }
