@@ -48,8 +48,8 @@ a.menu:hover{
   color:white;
 }
 
-.col-sm-6{
-
+#pic{
+  padding-right: 5vw;
 }
 
 #sidebar{
@@ -59,10 +59,9 @@ a.menu:hover{
   margin-bottom: 5%;
 }
 
-#printer{
-  margin: 5%;
-}
+
 .img-fluid{
- width: 60vw;
- height: 45vw;
+  width: 60vw;
+  height: 45vw;
+
 }

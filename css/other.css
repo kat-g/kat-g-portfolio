@@ -15,14 +15,21 @@ p{
   color: black;
   font-family: 'Roboto Mono';
   font-size: 1.2vw;
-  width: 40vw;
+  max-width: 50vw;
   text-align: center;
 }
 
 iframe{
-  width: 40vw;
+  margin-top: 10vw;
+  width: inherit;
   height: 25vw;
   align-content: center;
+}
+
+img{
+max-height: 45vw;
+max-width: 100%;
+padding: 3vw;
 }
 
 a.home {
@@ -74,10 +81,10 @@ a.menu:hover{
   margin-bottom: 5%;
 }
 #vid{
-  padding-top: 10vw;
-
+  width: 40vw;
+  max-height: 50vw;
 }
-#gallery{
-width: 40vw;
-border: solid;
+.carousel-item{
+max-height: 100%;
+max-width: 100vw;
 }
